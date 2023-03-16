@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+
+ul:nth-child(3) li {
+    color: red;
+    list-style: none;
+}
+
+ul:nth-child(3) li::before {
+    color: red;
+    content: "¶ ";
+    padding-right: 10px;
+}
+
+
+ul:nth-child(2) li {
+    align-items: center;
+
+    background-image: url(/icons8-верхнее-меню-30.png);
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    list-style: none;
+}
